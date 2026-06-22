@@ -1,0 +1,22 @@
+header {
+    background: #BBBBBB;
+}
+
+nav li{ /*seleto. Ele diz ao navegador:"Procure por todas as tag<li> que estejam dentro de uma tag 
+    <nav> e explique as regras a baixo*/
+    display: inline;/* Usando o inline você esta forçando os itens do menu a ficarem um lado do outro(na mesma linha}
+    horizontal*/
+    margin: 0 0 0 15px;/* Definindo o espaçamento externo ao redor de cada item. Quando usamos quatro valores, a ordem segue sentido horário
+    0 no topo
+    0 na direita
+    0 no baixo
+    15px esquerda*/
+}
+
+nav a {
+    text-transform: uppercase; /* transformar automaticamente todo o texto do link em LETRAS MAIÚSCULAS, independemtemente de como ele foi digitado no html(ex "home" vira "HOME")*/
+    color: #000000;/* usando o código hexadecimal para a cor preta*/
+    font-weight: bold; /*Definir o peso da fonte como negrito.*/
+    font-size: 22px; /*Definindo o tamanho da fonte do texto*/
+    text-decoration: none;/*Remover decoração padrão do texto, retirar o sublinhado*/
+}
